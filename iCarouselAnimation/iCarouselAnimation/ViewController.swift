@@ -56,7 +56,7 @@ class ViewController: UIViewController {
         
         for layer in transformSublayers {
             var transform = CATransform3DIdentity
-            transform.m34 = -1 / 1000
+            transform.m34 = -1 / 600
             transform = CATransform3DRotate(transform, degreeToRadian(angle: angleOffset), 0, 1, 0)
             transform = CATransform3DTranslate(transform, 0, 0, 200)
             CATransaction.setAnimationDuration(0)
