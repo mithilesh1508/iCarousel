@@ -18,8 +18,6 @@ class ViewController: UIViewController {
     let transformLayer = CATransformLayer()
     var currentAngle:CGFloat = 0
     var currentOffset:CGFloat = 0
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
